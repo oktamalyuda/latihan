@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(60deg, #039, #0cf);
+}
+
+/* HEADER */
+.hero {
+  padding: 100px, 7%;
+}
+
+.hero img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  size: 5px;
+}
+
+.hero h1 {
+  padding-top: 250px;
+  margin-top: 10px;
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+}
+
+/* APLIKASI */
+.aplikasi {
+  padding: 100px, 7%;
+}
+
+.aplikasi .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.aplikasi .row .aplikasi-card {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.aplikasi .row .aplikasi-card img {
+  width: 60%;
+}
+
+.aplikasi .row .aplikasi-card .aplikasi-card-tittle {
+  margin: 10px auto 5px;
+  color: #fff;
+}
